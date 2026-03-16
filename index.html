@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://pyscript.net/releases/2026.3.1/core.css" />
+<script type="module" src="https://pyscript.net/releases/2026.3.1/core.js"></script>
+
+<title>Triangle Area Calculator</title>
+
+</head>
+
+<body>
+
+<h2>Triangle Area Calculator</h2>
+
+<input type="number" id="base" placeholder="Enter base"><br>
+<input type="number" id="height" placeholder="Enter height"><br>
+
+<button py-click="compute_area">Calculate Area</button>
+
+<div id="display"></div>
+
+<py-script src="main.py"></py-script>
+
+</body>
+</html>
